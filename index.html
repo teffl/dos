@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tutorial for DOS Commands</title>
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <main id="content">
+    <div class="section-bg">
+      <a href="homepage.html" class="button"> Homepage</a>
+      <h1>Welcome to DOS Commands Tutorial</h1>
+      <br>
+      <p>Hover a command from the list to see its details.</p>
+    </div>
+    <br>
+    <br>
+    <div class="container">
+      <section id="DIR" class="hover-card">
+        <h2>DIR</h2>
+        <p>Directory: Lists the files and directories in the current directory.</p>
+        <br>
+        <p>Usage: <br>DIR [drive:][path][filename]</p>
+        <p>Attributes: <br>/A[[:]attributes] /B /C /D /L /N /O[[:]sortorder] /P /Q /R /S /T[[:]timefield] /W /X /4</p>
+      </section>
+
+      <section id="CD" class="hover-card">
+        <h2>CD</h2>
+        <p>Change Directory: Changes the current directory.</p>
+        <br>
+        <p>Usage: <br>CD [drive:][path]</p>
+        <p>Attributes: None</p>
+      </section>
+
+      <section id="MD" class="hover-card">
+        <h2>MD</h2>
+        <p>Make Directory: Creates a new directory.</p>
+        <br>
+        <p>Usage: <br>MD [drive:][path]dirname</p>
+        <p>Attributes: None</p>
+      </section>
+
+      <section id="RD" class="hover-card">
+        <h2>RD</h2>
+        <p>Remove Directory: Deletes a directory.</p>
+        <br>
+        <p>Usage: <br>RD [drive:][path]dirname</p>
+        <p>Attributes: None</p>
+      </section>
+
+      <section id="COPY" class="hover-card">
+        <h2>COPY</h2>
+        <p>Copies one or more files to another location.</p>
+        <br>
+        <p>Usage: <br>COPY [drive:][path][filename] [drive:][path][filename]</p>
+        <p>Attributes: /V /N /Y | /-Y</p>
+      </section>
+
+      <section id="DEL" class="hover-card">
+        <h2>DEL</h2>
+        <p>Delete: Deletes one or more files.</p>
+        <br>
+        <p>Usage: <br>DEL [/P] [/F] [/S] [/Q] [/A[[:]attributes]] names</p>
+        <p>Attributes: None</p>
+      </section>
+
+      <section id="REN" class="hover-card">
+        <h2>REN</h2>
+        <p>Rename: Renames a file or directory.</p>
+        <br>
+        <p>Usage: <br>REN [drive:][path][filename] [filename]</p>
+        <p>Attributes: None</p>
+      </section>
+
+      <section id="MOVE" class="hover-card">
+        <h2>MOVE</h2>
+        <p>Moves one or more files from one directory to another.</p>
+        <br>
+        <p>Usage: <br>MOVE [/Y | /-Y] [drive:][path]filename1[,...] destination</p>
+        <p>Attributes: None</p>
+      </section>
+
+      <section id="TYPE" class="hover-card">
+        <h2>TYPE</h2>
+        <p>Type: Displays the contents of a text file.</p>
+        <br>
+        <p>Usage: <br>TYPE [drive:][path]filename</p>
+        <p>Attributes: None</p>
+      </section>
+
+      <section id="CLS" class="hover-card">
+        <h2>CLS</h2>
+        <p>Clear: Clears the screen.</p>
+        <br>
+        <p>Usage: <br>CLS</p>
+        <p>Attributes: None</p>
+      </section>
+
+      <section id="ASSOC" class="hover-card">
+        <h2>ASSOC</h2>
+        <p>Associates a file extension with a file type (or lists associations).</p>
+        <br>
+        <p>Usage: <br>ASSOC [.ext[=[fileType]]]</p>
+        <p>Attributes: None</p>
+      </section>
+
+      <section id="ATTRIB" class="hover-card">
+        <h2>ATTRIB</h2>
+        <p>Displays or changes file attributes.</p>
+        <br>
+        <p>Usage: <br>ATTRIB [+R | -R] [+A | -A] [+S | -S] [+H | -H] [drive:][path][filename]</p>
+        <p>Attributes: None</p>
+      </section>
+
+      <section id="CHKDSK" class="hover-card">
+        <h2>CHKDSK</h2>
+        <p>Checks a disk and displays a status report.</p>
+        <br>
+        <p>Usage: <br>CHKDSK [drive:][[path]filename] [/F] [/V]</p>
+        <p>Attributes: None</p>
+      </section>
+
+      <section id="DISKPART" class="hover-card">
+        <h2>DISKPART</h2>
+        <p>Manages disks, partitions, and volumes.</p>
+        <br>
+        <p>Usage: <br>DISKPART</p>
+        <p>Attributes: None</p>
+      </section>
+
+      <section id="FORMAT" class="hover-card">
+        <h2>FORMAT</h2>
+        <p>Formats a disk for use with Windows.</p>
+        <br>
+        <p>Usage: <br>FORMAT [drive:] [/FS:file-system] [/V:label] [/Q] [/A:size] [/C] [/X]</p>
+        <p>Attributes: None</p>
+      </section>
+
+      <section id="LABEL" class="hover-card">
+        <h2>LABEL</h2>
+        <p>Creates, changes, or deletes the volume label of a disk.</p>
+        <br>
+        <p>Usage: <br>LABEL [drive:][label]</p>
+        <p>Attributes: None</p>
+      </section>
+
+      <section id="MD" class="hover-card">
+        <h2>MD</h2>
+        <p>Creates a new directory.</p>
+        <br>
+        <p>Usage: <br>MD [drive:][path]dirname</p>
+        <p>Attributes: None</p>
+      </section>
+
+      <section id="MKLINK" class="hover-card">
+        <h2>MKLINK</h2>
+        <p>Creates a symbolic link to a directory or file.</p>
+        <br>
+        <p>Usage: <br>MKLINK [[/D] | [/H] | [/J]] link target</p>
+        <p>Attributes: None</p>
+      </section>
+
+      <section id="MORE" class="hover-card">
+        <h2>MORE</h2>
+        <p>Displays output one screen at a time.</p>
+        <br>
+        <p>Usage: <br>MORE [/E [/C]] [/P] [/S] [/Tn] [+n] [files]</p>
+        <p>Attributes: None</p>
+      </section>
+
+      <section id="NET" class="hover-card">
+        <h2>NET</h2>
+        <p>Manages network resources.</p>
+        <br>
+        <p>Usage: <br>NET [ACCOUNTS | COMPUTER | CONFIG | CONTINUE | FILE | GROUP | HELP | HELPMSG | LOCALGROUP | NAME |
+          PAUSE | PRINT | SEND | SESSION | SHARE | START | STATISTICS | STOP | TIME | USE | USER | VIEW]</p>
+        <p>Attributes: None</p>
+      </section>
+
+      <section id="PING" class="hover-card">
+        <h2>PING</h2>
+        <p>Sends Internet Control Message Protocol (ICMP) Echo Request messages to a specified remote computer.</p>
+        <br>
+        <p>Usage: <br>PING [-t] [-a] [-n count] [-l size] [-f] [-i TTL] [-v TOS] [-r count] [-s count] [[-j host-list] |
+          [-k host-list]] [-w timeout] destination-list</p>
+        <p>Attributes: None</p>
+      </section>
+
+      <section id="RENAME" class="hover-card">
+        <h2>RENAME</h2>
+        <p>Renames a file or files.</p>
+        <br>
+        <p>Usage: <br>RENAME [drive:][path][directoryname] oldname newname</p>
+        <p>Attributes: None</p>
+      </section>
+
+      <section id="RMDIR" class="hover-card">
+        <h2>RMDIR</h2>
+        <p>Removes (deletes) a directory.</p>
+        <br>
+        <p>Usage: <br>RMDIR [/S] [/Q] [drive:]path</p>
+        <p>Attributes: None</p>
+      </section>
+
+      <section id="ROUTE" class="hover-card">
+        <h2>ROUTE</h2>
+        <p>Manipulates network routing tables.</p>
+        <br>
+        <p>Usage: <br>ROUTE [-f] [-p] [-4|-6] command [destination] [MASK netmask] [gateway] [METRIC metric] [IF
+          interface]</p>
+        <p>Attributes: None</p>
+      </section>
+
+      <section id="SHUTDOWN" class="hover-card">
+        <h2>SHUTDOWN</h2>
+        <p>Allows proper local or remote shutdown of machine.</p>
+        <br>
+        <p>Usage: <br>SHUTDOWN [/i | /l | /s | /r | /g | /a | /p | /h | /e] [/f]</p>
+        <p>Attributes: None</p>
+      </section>
+
+      <section id="SYSTEMINFO" class="hover-card">
+        <h2>SYSTEMINFO</h2>
+        <p>Displays detailed configuration information about a computer and its operating system.</p>
+        <br>
+        <p>Usage: <br>SYSTEMINFO [/S system [/U username [/P [password]]]] [/FO format] [/NH]</p>
+        <p>Attributes: None</p>
+      </section>
+
+      <section id="TASKLIST" class="hover-card">
+        <h2>TASKLIST</h2>
+        <p>Displays a list of applications, services, and the Process ID (PID) currently running on either a local or a
+          remote computer.</p>
+        <br>
+        <p>Usage: <br>TASKLIST [/S system [/U username [/P [password]]]] [/M [module] | /SVC | /V] [/FI filter] [/FO
+          format] [/NH]</p>
+        <p>Attributes: None</p>
+      </section>
+
+      <section id="TREE" class="hover-card">
+        <h2>TREE</h2>
+        <p>Graphically displays the directory structure of a drive or path.</p>
+        <br>
+        <p>Usage: <br>TREE [drive:][path] [/F] [/A]</p>
+        <p>Attributes: None</p>
+      </section>
+
+      <section id="XCOPY" class="hover-card">
+        <h2>XCOPY</h2>
+        <p>Copies files and directory trees.</p>
+        <br>
+        <p>Usage: <br>XCOPY source [destination] [/A | /M] [/D[:date]] [/P] [/S [/E]] [/V] [/W] [/C] [/I] [/Q] [/F] [/L]
+          [/G] [/H] [/R] [/T] [/U] [/K] [/N] [/O] [/X] [/Y] [/-Y] [/Z]</p>
+        <p>Attributes: None</p>
+      </section>
+
+    </div>
+  </main>
+  <aside class="sidebar">
+    <div class="logo">
+      <img src="msdos.png" alt="logo">
+      <h2>DOS Commands</h2>
+    </div>
+    <ul class="links">
+      <li>
+        <a href="#DIR" onclick="scrollToCommand('DIR')">DIR</a>
+      </li>
+      <li>
+        <a href="#CD" onclick="scrollToCommand('CD')">CD</a>
+      </li>
+      <li>
+        <a href="#MD" onclick="scrollToCommand('MD')">MD</a>
+      </li>
+      <li>
+        <a href="#RD" onclick="scrollToCommand('RD')">RD</a>
+      </li>
+      <li>
+        <a href="#COPY" onclick="scrollToCommand('COPY')">COPY</a>
+      </li>
+      <li>
+        <a href="#DEL" onclick="scrollToCommand('DEL')">DEL</a>
+      </li>
+      <li>
+        <a href="#REN" onclick="scrollToCommand('REN')">REN</a>
+      </li>
+      <li>
+        <a href="#MOVE" onclick="scrollToCommand('MOVE')">MOVE</a>
+      </li>
+      <li>
+        <a href="#TYPE" onclick="scrollToCommand('TYPE')">TYPE</a>
+      </li>
+      <li>
+        <a href="#CLS" onclick="scrollToCommand('DIR')">CLS</a>
+      </li>
+      <li>
+        <a href="#ASSOC" onclick="scrollToCommand('ASSOC')">ASSOC</a>
+      </li>
+      <li>
+        <a href="#ATTRIB" onclick="scrollToCommand('ATTRIB')">ATTRIB</a>
+      </li>
+      <li>
+        <a href="#CHKDSK" onclick="scrollToCommand('CHKDSK')">CHKDSK</a>
+      </li>
+      <li>
+        <a href="#DISKPART" onclick="scrollToCommand('DISKPART')">DISKPART</a>
+      </li>
+      <li>
+        <a href="#FORMAT" onclick="scrollToCommand('FORMAT')">FORMAT</a>
+      </li>
+      <li>
+        <a href="#LABEL" onclick="scrollToCommand('LABEL')">LABEL</a>
+      </li>
+      <li>
+        <a href="#MKLINK" onclick="scrollToCommand('MKLINK')">MKLINK</a>
+      </li>
+      <li>
+        <a href="#MORE" onclick="scrollToCommand('MORE')">MORE</a>
+      </li>
+      <li>
+        <a href="#NET" onclick="scrollToCommand('NET')">NET</a>
+      </li>
+      <li>
+        <a href="#PING" onclick="scrollToCommand('PING')">PING</a>
+      </li>
+      <li>
+        <a href="#RENAME" onclick="scrollToCommand('RENAME')">RENAME</a>
+      </li>
+      <li>
+        <a href="#RMDIR" onclick="scrollToCommand('RMDIR')">RMDIR</a>
+      </li>
+      <li>
+        <a href="#ROUTE" onclick="scrollToCommand('ROUTE')">ROUTE</a>
+      </li>
+      <li>
+        <a href="#SHUTDOWN" onclick="scrollToCommand('SHUTDOWN')">SHUTDOWN</a>
+      </li>
+      <li>
+        <a href="#SYSTEMINFO" onclick="scrollToCommand('SYSTEMINFO')">SYSTEMINFO</a>
+      </li>
+      <li>
+        <a href="#TASKLIST" onclick="scrollToCommand('TASKLIST')">TASKLIST</a>
+      </li>
+      <li>
+        <a href="#TREE" onclick="scrollToCommand('TREE')">TREE</a>
+      </li>
+      <li>
+        <a href="#XCOPY" onclick="scrollToCommand('XCOPY')">XCOPY</a>
+      </li>
+      <li class="logout-link">
+        <p>Hover here!</p>
+        <a href="#">Go back to top</a>
+      </li>
+    </ul>
+  </aside>
+  <script src="main.js"></script>
+</body>
+
+</html>

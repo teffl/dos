@@ -1,0 +1,235 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+    background-color: #1F1F1F;
+    background-position: center;
+    background-size: cover;
+}
+
+h1 p {
+    padding-bottom: 40px;
+}
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 110px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #333333;
+    /*border-right: 1px solid rgba(0, 0, 0, 0.7);*/
+    transition: width 0.3s ease;
+}
+
+.section-bg {
+    background-color: #242424;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.section-bg h1 {
+    color: #33FF33;
+    font-family: "Courier New", Courier, monospace;
+
+}
+
+.section-bg p {
+    color: #33FF33;
+    font-family: "Courier New", Courier, monospace;
+
+}
+
+.sidebar:hover {
+    width: 260px;
+}
+
+.sidebar .logo {
+    color: #000;
+    display: flex;
+    align-items: center;
+    padding: 25px 10px 15px;
+}
+
+.logout-link p {
+    color: #33FF33;
+    font-family: "Courier New", Courier, monospace;
+
+}
+
+.logo img {
+    width: 43px;
+    border-radius: 50%;
+}
+
+.logo h2 {
+    font-family: "Courier New", Courier, monospace;
+    font-size: 1.15rem;
+    font-weight: 600;
+    margin-left: 15px;
+    display: none;
+    color: #33FF33;
+}
+
+.sidebar:hover .logo h2 {
+    display: block;
+}
+
+.sidebar .links {
+    list-style: none;
+    margin-top: 20px;
+    overflow-y: auto;
+    scrollbar-width: none;
+    height: calc(100% - 140px);
+}
+
+.sidebar .links::-webkit-scrollbar {
+    display: none;
+}
+
+.links li {
+    display: flex;
+    border-radius: 4px;
+    align-items: center;
+}
+
+.links li:hover {
+    cursor: pointer;
+    background: #50C878;
+}
+
+.links h4 {
+    color: #50C878;
+    font-weight: 500;
+    display: none;
+    margin-bottom: 10px;
+}
+
+.sidebar:hover .links h4 {
+    display: block;
+}
+
+.links hr {
+    margin: 10px 8px;
+    border: 1px solid #4c4c4c;
+}
+
+.sidebar:hover .links hr {
+    border-color: transparent;
+}
+
+.links li span {
+    padding: 12px 10px;
+}
+
+.links li a {
+    padding: 10px;
+    color: #33FF33;
+    display: none;
+    font-weight: 500;
+    white-space: nowrap;
+    text-decoration: none;
+    font-family: "Courier New", Courier, monospace;
+}
+
+.sidebar:hover .links li a {
+    display: block;
+}
+
+.links .logout-link {
+    margin-top: 20px;
+}
+
+main {
+    text-align: center;
+}
+
+#content section {
+    margin-bottom: 800px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: larger;
+}
+
+.hover-card {
+    width: 1500px;
+    max-height: 70px;
+    background-color: #1F1F1F;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    overflow: hidden;
+    transition: max-height 0.5s ease;
+}
+
+.hover-card h2 {
+    color: #00FF00;
+    font-size: 50px;
+    font-family: "Courier New", Courier, monospace;
+}
+
+.hover-card p {
+    color: #00FF00;
+    font-family: "Courier New", Courier, monospace;
+
+}
+
+.hover-card:hover {
+    max-height: 300px;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 10px;
+    background-color: #333232; /* Button background color */
+    color: #00FF00; /* Button text color */
+    text-align: center; /* Center align text */
+    text-decoration: none; /* Remove underline from the link */
+    font-family: 'Courier New', Courier, monospace;
+    border: none; /* Remove border */
+    border-radius: 5px; /* Add some border radius for rounded corners */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    margin-right: 1400px;
+}
+
+.button:hover {
+    background-color: #a8baae; /* Darker background color on hover */
+}
+
+
+@media screen and (max-width: 768px) {
+    .sidebar {
+        width: 60px;
+    }
+
+    .sidebar:hover {
+        width: 180px;
+    }
+
+    .logo h2 {
+        display: none;
+    }
+
+    .sidebar:hover .logo h2 {
+        display: block;
+    }
+}
